@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/U00-E01.dir/Ej-01/main.cpp.o CMakeFiles/U00-E01.dir/Ej-01/Geometria.cpp.o CMakeFiles/U00-E01.dir/Ej-01/Cuadrado.cpp.o CMakeFiles/U00-E01.dir/Ej-01/Triangulo.cpp.o CMakeFiles/U00-E01.dir/Ej-01/Circulo.cpp.o CMakeFiles/U00-E01.dir/Ej-01/Color.cpp.o  -o U00-E01 

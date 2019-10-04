@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/U01-E01.dir/Ej-01/main.cpp.o CMakeFiles/U01-E01.dir/Ej-01/potencia.cpp.o  -o U01-E01 

@@ -1,0 +1,2860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Programacion-3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\gtest-1.8.1\;CMake Files\test\lib\gtest-1.8.1\cmake\;CMake Files\U00_Repaso\;CMake Files\U01_Recursividad\;CMake Files\U02_Listas\;CMake Files\U03_Pilas\;CMake Files\U04_Colas\;CMake Files\U05_Arbol\;CMake Files\U06_Hash\;CMake Files\U07_Grafos\;CMake Files\U08_Ordenamiento\;CMake Files\U09_Busqueda\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 run_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 run_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E06">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U00-E06/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/U00-E06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 U00-E06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U01-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/U01-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 U01-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parcial">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/parcial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 parcial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parcial/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/parcial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 parcial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E06">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U02-E06/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/U02-E06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 U02-E06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U03-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/U03-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 U03-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U03_Pilas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U04-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/U04-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 U04-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U04_Colas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U05-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/U05-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 U05-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U05_Arbol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U06-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/U06-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 U06-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U06-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/U06-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 U06-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U06-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/U06-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 U06-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U06-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/U06-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 U06-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U06-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/U06-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 U06-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U06-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/U06-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 U06-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U06_Hash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U07-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/U07-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 U07-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U07-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/U07-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 U07-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U07-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/U07-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 U07-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U07-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/U07-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 U07-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U07-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/U07-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 U07-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U07-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/U07-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 U07-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U07_Grafos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U08-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/U08-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 U08-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U08_Ordenamiento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E01">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E01/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E02">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E02/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E03">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E03/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E04">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E04/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E05">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="U09-E05/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/U09-E05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 U09-E05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U09_Busqueda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Circulo.cpp">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Circulo.h">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Color.cpp">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Color.h">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Cuadrado.cpp">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Cuadrado.h">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Geometria.cpp">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Geometria.h">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Triangulo.cpp">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Triangulo.h">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/main.cpp">
+			<Option target="U00-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-02/Calculadora.cpp">
+			<Option target="U00-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-02/Calculadora.h">
+			<Option target="U00-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-02/main.cpp">
+			<Option target="U00-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-03/Calculadora.cpp">
+			<Option target="U00-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-03/Calculadora.h">
+			<Option target="U00-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-03/main.cpp">
+			<Option target="U00-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-04/main.cpp">
+			<Option target="U00-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-05/Entero.cpp">
+			<Option target="U00-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-05/Entero.h">
+			<Option target="U00-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-05/main.cpp">
+			<Option target="U00-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-06/main.cpp">
+			<Option target="U00-E06"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-01/main.cpp">
+			<Option target="U01-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-01/potencia.cpp">
+			<Option target="run_test"/>
+			<Option target="U01-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-01/potencia.h">
+			<Option target="run_test"/>
+			<Option target="U01-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-02/main.cpp">
+			<Option target="U01-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-02/sumatoria.cpp">
+			<Option target="run_test"/>
+			<Option target="U01-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-02/sumatoria.h">
+			<Option target="run_test"/>
+			<Option target="U01-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-03/ackerman.cpp">
+			<Option target="run_test"/>
+			<Option target="U01-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-03/ackerman.h">
+			<Option target="run_test"/>
+			<Option target="U01-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-03/main.cpp">
+			<Option target="U01-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-04/main.cpp">
+			<Option target="U01-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-04/mcd.cpp">
+			<Option target="run_test"/>
+			<Option target="U01-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-04/mcd.h">
+			<Option target="run_test"/>
+			<Option target="U01-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-05/digitos.cpp">
+			<Option target="run_test"/>
+			<Option target="U01-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-05/digitos.h">
+			<Option target="run_test"/>
+			<Option target="U01-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-05/main.cpp">
+			<Option target="U01-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-01/fnInvierte.h">
+			<Option target="U02-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-01/main.cpp">
+			<Option target="U02-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-02/main.cpp">
+			<Option target="U02-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-03/main.cpp">
+			<Option target="U02-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-04/main.cpp">
+			<Option target="U02-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-04/union.h">
+			<Option target="U02-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-05/CircList.h">
+			<Option target="U02-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-05/main.cpp">
+			<Option target="U02-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ej-06/main.cpp">
+			<Option target="U02-E06"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Ejercicio-tipo-parcial/TipoParcial.cpp">
+			<Option target="parcial"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/Lista/Lista.h">
+			<Option target="U02-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Ej-01/main.cpp">
+			<Option target="U03-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Ej-02/main.cpp">
+			<Option target="U03-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Ej-03/main.cpp">
+			<Option target="U03-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Ej-04/main.cpp">
+			<Option target="U03-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Ej-05/main.cpp">
+			<Option target="U03-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Pila/Pila.h">
+			<Option target="U03-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/Cola/Cola.h">
+			<Option target="U04-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/Ej-01/main.cpp">
+			<Option target="U04-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/Ej-02/main.cpp">
+			<Option target="U04-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/Ej-03/main.cpp">
+			<Option target="U04-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/Ej-04/main.cpp">
+			<Option target="U04-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/Ej-05/main.cpp">
+			<Option target="U04-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/Arbol/ArbolBinario.h">
+			<Option target="U05-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/Ej-01/main.cpp">
+			<Option target="U05-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/Ej-02/main.cpp">
+			<Option target="U05-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/Ej-03/main.cpp">
+			<Option target="U05-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/Ej-04/main.cpp">
+			<Option target="U05-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U06_Hash/Ej-01/main.cpp">
+			<Option target="U06-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U06_Hash/Ej-02/main.cpp">
+			<Option target="U06-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U06_Hash/Ej-03/main.cpp">
+			<Option target="U06-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U06_Hash/HashMap/HashMap.h">
+			<Option target="U06-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U07_Grafos/Ej-01/main.cpp">
+			<Option target="U07-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U07_Grafos/Ej-02/main.cpp">
+			<Option target="U07-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U07_Grafos/Ej-03/main.cpp">
+			<Option target="U07-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/Ej-01/main.cpp">
+			<Option target="U08-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/Ej-02/main.cpp">
+			<Option target="U08-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/Ej-03/main.cpp">
+			<Option target="U08-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/Ej-04/main.cpp">
+			<Option target="U08-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/Ej-05/main.cpp">
+			<Option target="U08-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/Ej-01/main.cpp">
+			<Option target="U09-E01"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/Ej-02/main.cpp">
+			<Option target="U09-E02"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/Ej-03/main.cpp">
+			<Option target="U09-E03"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/Ej-04/main.cpp">
+			<Option target="U09-E04"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/Ej-05/main.cpp">
+			<Option target="U09-E05"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej06.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej06.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Lista.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Pila.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Colas.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/HashMap.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Arbol.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U07_Grafos/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U07_Grafos/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U07_Grafos/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.8.1\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.8.1\cmake\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U00_Repaso\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U01_Recursividad\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U02_Listas\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U03_Pilas\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U04_Colas\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U05_Arbol\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U06_Hash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U06_Hash\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U07_Grafos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U07_Grafos\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U08_Ordenamiento\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U09_Busqueda\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/U02-E06.dir/Ej-06/main.cpp.o  -o U02-E06 

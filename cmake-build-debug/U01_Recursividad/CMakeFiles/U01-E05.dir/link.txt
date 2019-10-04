@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/U01-E05.dir/Ej-05/main.cpp.o CMakeFiles/U01-E05.dir/Ej-05/digitos.cpp.o  -o U01-E05 

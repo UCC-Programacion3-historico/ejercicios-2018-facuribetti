@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\gtest-1.8.1\;CMake Files\test\lib\gtest-1.8.1\cmake\;CMake Files\U00_Repaso\;CMake Files\U01_Recursividad\;CMake Files\U02_Listas\;CMake Files\U03_Pilas\;CMake Files\U04_Colas\;CMake Files\U05_Arbol\;CMake Files\U06_Hash\;CMake Files\U07_Grafos\;CMake Files\U08_Ordenamiento\;CMake Files\U09_Busqueda\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 run_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 run_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/include"/>
+					<Add directory="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-01/potencia.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-01/potencia.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-02/sumatoria.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-02/sumatoria.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-03/ackerman.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-03/ackerman.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-04/mcd.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-04/mcd.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-05/digitos.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/Ej-05/digitos.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U00_Repaso/Ej06.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U01_Recursividad/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Ej06.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U02_Listas/Lista.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U03_Pilas/Pila.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Colas.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U04_Colas/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U05_Hash/HashMap.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Arbol.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U06_Arbol/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U07_Grafos/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U07_Grafos/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U07_Grafos/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U08_Ordenamiento/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej01.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej02.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej03.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej04.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/U09_Busqueda/Ej05.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.8.1\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/test/lib/gtest-1.8.1/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.8.1\cmake\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U00_Repaso\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U01_Recursividad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U01_Recursividad\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U02_Listas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U02_Listas\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U03_Pilas\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U04_Colas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U04_Colas\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U05_Arbol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U05_Arbol\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U06_Hash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U06_Hash\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U07_Grafos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U07_Grafos\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U08_Ordenamiento/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U08_Ordenamiento\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U09_Busqueda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\U09_Busqueda\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

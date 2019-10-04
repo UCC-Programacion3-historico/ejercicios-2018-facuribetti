@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/U01-E04.dir/Ej-04/main.cpp.o CMakeFiles/U01-E04.dir/Ej-04/mcd.cpp.o  -o U01-E04 
