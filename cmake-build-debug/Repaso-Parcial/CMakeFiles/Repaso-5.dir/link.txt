@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Repaso-5.dir/Ej-05/Ejercicio-5.cpp.o  -o Repaso-5 

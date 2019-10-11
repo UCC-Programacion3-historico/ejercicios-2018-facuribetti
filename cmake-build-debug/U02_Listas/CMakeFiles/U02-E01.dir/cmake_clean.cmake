@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/U02-E01.dir/Ej-01/main.cpp.o"
-  "U02-E01.pdb"
   "U02-E01"
+  "U02-E01.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

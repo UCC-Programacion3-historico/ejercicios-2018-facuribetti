@@ -7,6 +7,13 @@
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/edit_cache.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest_main.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/rebuild_cache.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/edit_cache.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-1.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-3.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-4.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-2.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/CMakeFiles/rebuild_cache.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/CMakeFiles/edit_cache.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E04.dir

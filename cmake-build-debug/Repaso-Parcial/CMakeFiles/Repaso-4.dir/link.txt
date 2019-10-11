@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Repaso-4.dir/Ej-04/Ejercicio-4.cpp.o  -o Repaso-4 

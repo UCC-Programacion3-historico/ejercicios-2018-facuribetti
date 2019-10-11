@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/U00-E03.dir/Ej-03/main.cpp.o"
   "CMakeFiles/U00-E03.dir/Ej-03/Calculadora.cpp.o"
-  "U00-E03.pdb"
+  "CMakeFiles/U00-E03.dir/Ej-03/main.cpp.o"
   "U00-E03"
+  "U00-E03.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

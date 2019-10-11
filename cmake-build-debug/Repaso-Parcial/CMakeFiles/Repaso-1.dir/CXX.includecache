@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Ejercicio-1.cpp
+iostream
+-
+Lista.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Lista.h
+Pila.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Pila.h
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Lista.h
+nodo.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/nodo.h
+Pila.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Pila.h
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Pila.h
+nodo.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/nodo.h
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/nodo.h
+

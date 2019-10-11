@@ -1,7 +1,7 @@
 #ifndef LISTA_H
 #define LISTA_H
 
-#include "Nodo.h"
+#include "nodo.h"
 /**
  * Clase que implementa una Lista Enlasada generica, ya que puede
  * almacenar cualquier tipo de dato T
@@ -155,6 +155,8 @@ void Lista<T>::insertAfter2(int oldValue, int n, int newValue) {
 
         if(aux->getDato() == oldValue)
             cant++;
+        if(cant < n && aux->getSiguiente() == nullptr)
+            throw 404;
 
         if(cant == n){
             nuevo = new Nodo<T>;
@@ -166,7 +168,6 @@ void Lista<T>::insertAfter2(int oldValue, int n, int newValue) {
         else{
             aux = aux->getSiguiente();
         }
-
     }
 }
 

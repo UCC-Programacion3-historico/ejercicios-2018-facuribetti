@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/cmake_install.cmake")
+  include("/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/cmake_install.cmake")
   include("/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/cmake_install.cmake")
   include("/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U01_Recursividad/cmake_install.cmake")
   include("/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U02_Listas/cmake_install.cmake")

@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 # Agrego todos los test.
 add_subdirectory(test)
+add_subdirectory(Repaso-Parcial)
 add_subdirectory(U00_Repaso)
 add_subdirectory(U01_Recursividad)
 add_subdirectory(U02_Listas)

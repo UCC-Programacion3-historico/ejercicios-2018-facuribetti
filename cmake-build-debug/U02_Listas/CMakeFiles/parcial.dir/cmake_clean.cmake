@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/parcial.dir/Ejercicio-tipo-parcial/TipoParcial.cpp.o"
-  "parcial.pdb"
   "parcial"
+  "parcial.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

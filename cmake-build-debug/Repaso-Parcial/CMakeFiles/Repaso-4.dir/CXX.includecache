@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-04/Ejercicio-4.cpp
+iostream
+-
+Lista.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-04/Lista.h
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-04/Lista.h
+nodo.h
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-04/nodo.h
+
+/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-04/nodo.h
+
