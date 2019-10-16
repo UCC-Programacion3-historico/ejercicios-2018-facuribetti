@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2016-1.dir/Parcial-2016/2016-1.cpp.o  -o 2016-1 

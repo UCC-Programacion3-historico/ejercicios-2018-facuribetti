@@ -2,62 +2,67 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Programacion-3" targetName="U02-E06" />
-      <config projectName="Programacion-3" targetName="U02-E05" />
-      <config projectName="Programacion-3" targetName="U02-E04" />
-      <config projectName="Programacion-3" targetName="U09-E05" />
-      <config projectName="Programacion-3" targetName="U09-E04" />
-      <config projectName="Programacion-3" targetName="U09-E03" />
-      <config projectName="Programacion-3" targetName="U09-E02" />
-      <config projectName="Programacion-3" targetName="U09-E01" />
-      <config projectName="Programacion-3" targetName="run_test" />
-      <config projectName="Programacion-3" targetName="U01-E05" />
-      <config projectName="Programacion-3" targetName="U01-E04" />
+      <config projectName="Programacion-3" targetName="U01-E01" />
       <config projectName="Programacion-3" targetName="U01-E03" />
       <config projectName="Programacion-3" targetName="U01-E02" />
-      <config projectName="Programacion-3" targetName="parcial" />
-      <config projectName="Programacion-3" targetName="U08-E02" />
+      <config projectName="Programacion-3" targetName="U01-E05" />
+      <config projectName="Programacion-3" targetName="2016-1" />
+      <config projectName="Programacion-3" targetName="U01-E04" />
+      <config projectName="Programacion-3" targetName="U02-E05" />
+      <config projectName="Programacion-3" targetName="U02-E06" />
+      <config projectName="Programacion-3" targetName="U02-E01" />
+      <config projectName="Programacion-3" targetName="U02-E02" />
+      <config projectName="Programacion-3" targetName="U02-E03" />
+      <config projectName="Programacion-3" targetName="U02-E04" />
+      <config projectName="Programacion-3" targetName="gtest_main" />
+      <config projectName="Programacion-3" targetName="U09-E04" />
+      <config projectName="Programacion-3" targetName="U09-E05" />
+      <config projectName="Programacion-3" targetName="U09-E02" />
       <config projectName="Programacion-3" targetName="U08-E01" />
+      <config projectName="Programacion-3" targetName="U09-E03" />
+      <config projectName="Programacion-3" targetName="U08-E02" />
+      <config projectName="Programacion-3" targetName="2-1" />
+      <config projectName="Programacion-3" targetName="U00-E02" />
+      <config projectName="Programacion-3" targetName="2016-3" />
+      <config projectName="Programacion-3" targetName="U00-E01" />
+      <config projectName="Programacion-3" targetName="2016-2" />
+      <config projectName="Programacion-3" targetName="parcial" />
+      <config projectName="Programacion-3" targetName="gtest" />
+      <config projectName="Programacion-3" targetName="2-3" />
+      <config projectName="Programacion-3" targetName="run_test" />
+      <config projectName="Programacion-3" targetName="U08-E03" />
+      <config projectName="Programacion-3" targetName="U09-E01" />
+      <config projectName="Programacion-3" targetName="U08-E04" />
+      <config projectName="Programacion-3" targetName="U08-E05" />
       <config projectName="Programacion-3" targetName="U00-E06" />
       <config projectName="Programacion-3" targetName="U00-E05" />
       <config projectName="Programacion-3" targetName="U00-E04" />
       <config projectName="Programacion-3" targetName="U00-E03" />
-      <config projectName="Programacion-3" targetName="U00-E02" />
-      <config projectName="Programacion-3" targetName="U00-E01" />
-      <config projectName="Programacion-3" targetName="U07-E02" />
-      <config projectName="Programacion-3" targetName="U07-E01" />
-      <config projectName="Programacion-3" targetName="U01-E01" />
-      <config projectName="Programacion-3" targetName="U03-E03" />
-      <config projectName="Programacion-3" targetName="U03-E04" />
-      <config projectName="Programacion-3" targetName="U06-E03" />
-      <config projectName="Programacion-3" targetName="U06-E02" />
       <config projectName="Programacion-3" targetName="U06-E01" />
-      <config projectName="Programacion-3" targetName="U08-E05" />
-      <config projectName="Programacion-3" targetName="Repaso-2" />
-      <config projectName="Programacion-3" targetName="U05-E04" />
-      <config projectName="Programacion-3" targetName="U05-E03" />
-      <config projectName="Programacion-3" targetName="U05-E02" />
-      <config projectName="Programacion-3" targetName="U05-E01" />
-      <config projectName="Programacion-3" targetName="Repaso-3" />
-      <config projectName="Programacion-3" targetName="Repaso-4" />
-      <config projectName="Programacion-3" targetName="Repaso-1" />
-      <config projectName="Programacion-3" targetName="U04-E05" />
-      <config projectName="Programacion-3" targetName="gtest" />
-      <config projectName="Programacion-3" targetName="gtest_main" />
-      <config projectName="Programacion-3" targetName="U04-E02" />
-      <config projectName="Programacion-3" targetName="U04-E01" />
-      <config projectName="Programacion-3" targetName="U03-E01" />
-      <config projectName="Programacion-3" targetName="U08-E04" />
-      <config projectName="Programacion-3" targetName="U04-E04" />
-      <config projectName="Programacion-3" targetName="U08-E03" />
-      <config projectName="Programacion-3" targetName="U03-E05" />
-      <config projectName="Programacion-3" targetName="U04-E03" />
+      <config projectName="Programacion-3" targetName="U06-E02" />
+      <config projectName="Programacion-3" targetName="U06-E03" />
       <config projectName="Programacion-3" targetName="Repaso-5" />
-      <config projectName="Programacion-3" targetName="U03-E02" />
+      <config projectName="Programacion-3" targetName="U07-E02" />
       <config projectName="Programacion-3" targetName="U07-E03" />
-      <config projectName="Programacion-3" targetName="U02-E01" />
-      <config projectName="Programacion-3" targetName="U02-E02" />
-      <config projectName="Programacion-3" targetName="U02-E03" />
+      <config projectName="Programacion-3" targetName="U07-E01" />
+      <config projectName="Programacion-3" targetName="U03-E02" />
+      <config projectName="Programacion-3" targetName="U03-E03" />
+      <config projectName="Programacion-3" targetName="U03-E01" />
+      <config projectName="Programacion-3" targetName="U03-E04" />
+      <config projectName="Programacion-3" targetName="U03-E05" />
+      <config projectName="Programacion-3" targetName="U05-E04" />
+      <config projectName="Programacion-3" targetName="U05-E02" />
+      <config projectName="Programacion-3" targetName="U05-E03" />
+      <config projectName="Programacion-3" targetName="U05-E01" />
+      <config projectName="Programacion-3" targetName="Repaso-2" />
+      <config projectName="Programacion-3" targetName="Repaso-1" />
+      <config projectName="Programacion-3" targetName="Repaso-4" />
+      <config projectName="Programacion-3" targetName="U04-E01" />
+      <config projectName="Programacion-3" targetName="Repaso-3" />
+      <config projectName="Programacion-3" targetName="U04-E02" />
+      <config projectName="Programacion-3" targetName="U04-E03" />
+      <config projectName="Programacion-3" targetName="U04-E04" />
+      <config projectName="Programacion-3" targetName="U04-E05" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -67,39 +72,173 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1945e4b9-333d-4f54-810e-fd919dfdf198" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Todos_los_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Todos_los_Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej01_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej01_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej02_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej02_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej03_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej03_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej04_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej04_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej05_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej05_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej06_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U00_Ej06_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej01_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej01_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej02_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej02_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej03_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej03_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej04_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej04_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej05_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U01_Ej05_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej01_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej01_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej02_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej02_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej03_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej03_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej04_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej04_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej05_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej05_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej06_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Ej06_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U02_Lista.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U02_Lista.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej01_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej01_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej02_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej02_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej03_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej03_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej04_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej04_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej05_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U03_Ej05_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U03_Pilas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U03_Pilas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U04_Colas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U04_Colas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej01_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej01_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej02_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej02_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej03_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej03_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej04_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej04_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej05_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/U04_Ej05_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/1/WhatsApp Image 2019-10-15 at 7.17.26 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/2-1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/2-3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/Cola/Cola.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/Cola/ColaPrioridad.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/Cola/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/Cola/nodo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/WhatsApp Image 2019-10-15 at 7.17.36 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/2/WhatsApp Image 2019-10-15 at 8.28.57 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Ej-05/Pila.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Ej-05/nodo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Parcial 2017/Parcial 2017.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Parcial-2016/2016-1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Parcial-2016/2016-2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Parcial-2016/2016-3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso-Parcial/Parcial-2016/Parcial 2016.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repaso-Parcial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso-Parcial/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repaso-Parcial/Ej-05/Ejercicio-5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso-Parcial/Ej-05/Ejercicio-5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programacion-3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programacion-3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-4.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/Ej-05/Ejercicio-5.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/Ej-05/Ejercicio-5.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Repaso-Parcial/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E06.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E06.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E06.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E06.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U00_Repaso/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/CMakeFiles/U01-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U01_Recursividad/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E06.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E06.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E06.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/U02-E06.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/parcial.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/parcial.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/parcial.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/CMakeFiles/parcial.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U02_Listas/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/Ej-01/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/Ej-01/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E04.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E04.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/U03-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/U03-E01" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U03_Pilas/U03-E01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/CMakeFiles/U04-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U04_Colas/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/CMakeFiles/U05-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U05_Arbol/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/U06-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U06_Hash/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/U07-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U07_Grafos/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/U08-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U08_Ordenamiento/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E05.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E05.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/CMakeFiles/U09-E05.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U09_Busqueda/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/run_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/run_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/run_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/run_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/lib/gtest-1.8.1/Makefile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,29 +261,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RifVp0SFIRnXWimry5ez3nxULv" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Repaso-Parcial/Ej-04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Repaso-Parcial/2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Repaso-Parcial/Ej-01" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/2" />
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/Ej-05" />
       <recent name="$PROJECT_DIR$/Repaso-Parcial/Ej-04" />
       <recent name="$PROJECT_DIR$/Repaso-Parcial" />
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/Ej-01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/2" />
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/1" />
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/Parcial 2017" />
+      <recent name="$PROJECT_DIR$/Repaso-Parcial/Parcial 2016" />
       <recent name="$PROJECT_DIR$/Repaso-Parcial/Ej-01" />
     </key>
   </component>
@@ -160,7 +305,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Repaso-4">
+  <component name="RunManager" selected="CMake Application.2-3">
+    <configuration name="2-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion-3" TARGET_NAME="2-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion-3" RUN_TARGET_NAME="2-1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2-3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion-3" TARGET_NAME="2-3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion-3" RUN_TARGET_NAME="2-3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2016-1" type="CMakeRunConfiguration" factoryName="Application" folderName="Repaso Parcial" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion-3" TARGET_NAME="2016-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion-3" RUN_TARGET_NAME="2016-1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2016-2" type="CMakeRunConfiguration" factoryName="Application" folderName="Repaso Parcial" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion-3" TARGET_NAME="2016-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion-3" RUN_TARGET_NAME="2016-2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2016-3" type="CMakeRunConfiguration" factoryName="Application" folderName="Repaso Parcial" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion-3" TARGET_NAME="2016-3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion-3" RUN_TARGET_NAME="2016-3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Repaso-1" type="CMakeRunConfiguration" factoryName="Application" folderName="Repaso Parcial" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion-3" TARGET_NAME="Repaso-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion-3" RUN_TARGET_NAME="Repaso-1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -489,6 +659,11 @@
       <item itemvalue="CMake Application.Repaso-3" />
       <item itemvalue="CMake Application.Repaso-4" />
       <item itemvalue="CMake Application.Repaso-5" />
+      <item itemvalue="CMake Application.2016-1" />
+      <item itemvalue="CMake Application.2016-2" />
+      <item itemvalue="CMake Application.2016-3" />
+      <item itemvalue="CMake Application.2-1" />
+      <item itemvalue="CMake Application.2-3" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.parcial" />
@@ -539,7 +714,12 @@
       <workItem from="1570737863405" duration="720000" />
       <workItem from="1570747269292" duration="17000" />
       <workItem from="1570747361786" duration="1650000" />
-      <workItem from="1570814009462" duration="7137000" />
+      <workItem from="1570814009462" duration="7379000" />
+      <workItem from="1570897631188" duration="2642000" />
+      <workItem from="1571086089593" duration="1471000" />
+      <workItem from="1571106686959" duration="122000" />
+      <workItem from="1571172096971" duration="1263000" />
+      <workItem from="1571179021170" duration="9084000" />
     </task>
     <servers />
   </component>

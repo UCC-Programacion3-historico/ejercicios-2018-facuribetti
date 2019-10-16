@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/85/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/85/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/88/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/88/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -150,6 +150,32 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named 2-1
+
+# Build rule for target.
+2-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2-1
+.PHONY : 2-1
+
+# fast build rule for target.
+2-1/fast:
+	$(MAKE) -f Repaso-Parcial/CMakeFiles/2-1.dir/build.make Repaso-Parcial/CMakeFiles/2-1.dir/build
+.PHONY : 2-1/fast
+
+#=============================================================================
+# Target rules for targets named 2016-3
+
+# Build rule for target.
+2016-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2016-3
+.PHONY : 2016-3
+
+# fast build rule for target.
+2016-3/fast:
+	$(MAKE) -f Repaso-Parcial/CMakeFiles/2016-3.dir/build.make Repaso-Parcial/CMakeFiles/2016-3.dir/build
+.PHONY : 2016-3/fast
+
+#=============================================================================
 # Target rules for targets named Repaso-1
 
 # Build rule for target.
@@ -163,6 +189,19 @@ Repaso-1/fast:
 .PHONY : Repaso-1/fast
 
 #=============================================================================
+# Target rules for targets named 2016-2
+
+# Build rule for target.
+2016-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2016-2
+.PHONY : 2016-2
+
+# fast build rule for target.
+2016-2/fast:
+	$(MAKE) -f Repaso-Parcial/CMakeFiles/2016-2.dir/build.make Repaso-Parcial/CMakeFiles/2016-2.dir/build
+.PHONY : 2016-2/fast
+
+#=============================================================================
 # Target rules for targets named Repaso-3
 
 # Build rule for target.
@@ -174,6 +213,19 @@ Repaso-3: cmake_check_build_system
 Repaso-3/fast:
 	$(MAKE) -f Repaso-Parcial/CMakeFiles/Repaso-3.dir/build.make Repaso-Parcial/CMakeFiles/Repaso-3.dir/build
 .PHONY : Repaso-3/fast
+
+#=============================================================================
+# Target rules for targets named 2-3
+
+# Build rule for target.
+2-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2-3
+.PHONY : 2-3
+
+# fast build rule for target.
+2-3/fast:
+	$(MAKE) -f Repaso-Parcial/CMakeFiles/2-3.dir/build.make Repaso-Parcial/CMakeFiles/2-3.dir/build
+.PHONY : 2-3/fast
 
 #=============================================================================
 # Target rules for targets named Repaso-4
@@ -213,6 +265,19 @@ Repaso-5: cmake_check_build_system
 Repaso-5/fast:
 	$(MAKE) -f Repaso-Parcial/CMakeFiles/Repaso-5.dir/build.make Repaso-Parcial/CMakeFiles/Repaso-5.dir/build
 .PHONY : Repaso-5/fast
+
+#=============================================================================
+# Target rules for targets named 2016-1
+
+# Build rule for target.
+2016-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2016-1
+.PHONY : 2016-1
+
+# fast build rule for target.
+2016-1/fast:
+	$(MAKE) -f Repaso-Parcial/CMakeFiles/2016-1.dir/build.make Repaso-Parcial/CMakeFiles/2016-1.dir/build
+.PHONY : 2016-1/fast
 
 #=============================================================================
 # Target rules for targets named U00-E04
@@ -849,11 +914,16 @@ help:
 	@echo "... run_test"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... 2-1"
+	@echo "... 2016-3"
 	@echo "... Repaso-1"
+	@echo "... 2016-2"
 	@echo "... Repaso-3"
+	@echo "... 2-3"
 	@echo "... Repaso-4"
 	@echo "... Repaso-2"
 	@echo "... Repaso-5"
+	@echo "... 2016-1"
 	@echo "... U00-E04"
 	@echo "... U00-E02"
 	@echo "... U00-E01"

@@ -187,6 +187,98 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="2-1">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2-1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-1/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2-1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016-3">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2016-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2016-3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016-3/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2016-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2016-3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Repaso-1">
 				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Repaso-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
@@ -233,6 +325,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="2016-2">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2016-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2016-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016-2/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2016-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2016-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Repaso-3">
 				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Repaso-3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
@@ -274,6 +412,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 Repaso-3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-3">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2-3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-3/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2-3/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
@@ -412,6 +596,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 Repaso-5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016-1">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2016-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2016-1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2016-1/fast">
+				<Option output="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/2016-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 2016-1/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2626,6 +2856,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/2/2-1.cpp">
+			<Option target="2-1"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/2/2-3.cpp">
+			<Option target="2-3"/>
+		</Unit>
 		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-01/Ejercicio-1.cpp">
 			<Option target="Repaso-1"/>
 		</Unit>
@@ -2640,6 +2876,15 @@
 		</Unit>
 		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Ej-05/Ejercicio-5.cpp">
 			<Option target="Repaso-5"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Parcial-2016/2016-1.cpp">
+			<Option target="2016-1"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Parcial-2016/2016-2.cpp">
+			<Option target="2016-2"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Parcial-2016/2016-3.cpp">
+			<Option target="2016-3"/>
 		</Unit>
 		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/Ej-01/Circulo.cpp">
 			<Option target="U00-E01"/>

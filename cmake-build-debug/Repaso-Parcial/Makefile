@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/85/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/85/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/88/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/88/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Repaso-Parcial/CMakeFiles/2-1.dir/rule:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/2-1.dir/rule
+.PHONY : Repaso-Parcial/CMakeFiles/2-1.dir/rule
+
+# Convenience name for target.
+2-1: Repaso-Parcial/CMakeFiles/2-1.dir/rule
+
+.PHONY : 2-1
+
+# fast build rule for target.
+2-1/fast:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-1.dir/build.make Repaso-Parcial/CMakeFiles/2-1.dir/build
+.PHONY : 2-1/fast
+
+# Convenience name for target.
+Repaso-Parcial/CMakeFiles/2016-3.dir/rule:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/2016-3.dir/rule
+.PHONY : Repaso-Parcial/CMakeFiles/2016-3.dir/rule
+
+# Convenience name for target.
+2016-3: Repaso-Parcial/CMakeFiles/2016-3.dir/rule
+
+.PHONY : 2016-3
+
+# fast build rule for target.
+2016-3/fast:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-3.dir/build.make Repaso-Parcial/CMakeFiles/2016-3.dir/build
+.PHONY : 2016-3/fast
+
+# Convenience name for target.
 Repaso-Parcial/CMakeFiles/Repaso-1.dir/rule:
 	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/Repaso-1.dir/rule
 .PHONY : Repaso-Parcial/CMakeFiles/Repaso-1.dir/rule
@@ -126,6 +156,21 @@ Repaso-1/fast:
 .PHONY : Repaso-1/fast
 
 # Convenience name for target.
+Repaso-Parcial/CMakeFiles/2016-2.dir/rule:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/2016-2.dir/rule
+.PHONY : Repaso-Parcial/CMakeFiles/2016-2.dir/rule
+
+# Convenience name for target.
+2016-2: Repaso-Parcial/CMakeFiles/2016-2.dir/rule
+
+.PHONY : 2016-2
+
+# fast build rule for target.
+2016-2/fast:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-2.dir/build.make Repaso-Parcial/CMakeFiles/2016-2.dir/build
+.PHONY : 2016-2/fast
+
+# Convenience name for target.
 Repaso-Parcial/CMakeFiles/Repaso-3.dir/rule:
 	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/Repaso-3.dir/rule
 .PHONY : Repaso-Parcial/CMakeFiles/Repaso-3.dir/rule
@@ -139,6 +184,21 @@ Repaso-3: Repaso-Parcial/CMakeFiles/Repaso-3.dir/rule
 Repaso-3/fast:
 	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/Repaso-3.dir/build.make Repaso-Parcial/CMakeFiles/Repaso-3.dir/build
 .PHONY : Repaso-3/fast
+
+# Convenience name for target.
+Repaso-Parcial/CMakeFiles/2-3.dir/rule:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/2-3.dir/rule
+.PHONY : Repaso-Parcial/CMakeFiles/2-3.dir/rule
+
+# Convenience name for target.
+2-3: Repaso-Parcial/CMakeFiles/2-3.dir/rule
+
+.PHONY : 2-3
+
+# fast build rule for target.
+2-3/fast:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-3.dir/build.make Repaso-Parcial/CMakeFiles/2-3.dir/build
+.PHONY : 2-3/fast
 
 # Convenience name for target.
 Repaso-Parcial/CMakeFiles/Repaso-4.dir/rule:
@@ -184,6 +244,75 @@ Repaso-5: Repaso-Parcial/CMakeFiles/Repaso-5.dir/rule
 Repaso-5/fast:
 	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/Repaso-5.dir/build.make Repaso-Parcial/CMakeFiles/Repaso-5.dir/build
 .PHONY : Repaso-5/fast
+
+# Convenience name for target.
+Repaso-Parcial/CMakeFiles/2016-1.dir/rule:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Repaso-Parcial/CMakeFiles/2016-1.dir/rule
+.PHONY : Repaso-Parcial/CMakeFiles/2016-1.dir/rule
+
+# Convenience name for target.
+2016-1: Repaso-Parcial/CMakeFiles/2016-1.dir/rule
+
+.PHONY : 2016-1
+
+# fast build rule for target.
+2016-1/fast:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-1.dir/build.make Repaso-Parcial/CMakeFiles/2016-1.dir/build
+.PHONY : 2016-1/fast
+
+2/2-1.o: 2/2-1.cpp.o
+
+.PHONY : 2/2-1.o
+
+# target to build an object file
+2/2-1.cpp.o:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-1.dir/build.make Repaso-Parcial/CMakeFiles/2-1.dir/2/2-1.cpp.o
+.PHONY : 2/2-1.cpp.o
+
+2/2-1.i: 2/2-1.cpp.i
+
+.PHONY : 2/2-1.i
+
+# target to preprocess a source file
+2/2-1.cpp.i:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-1.dir/build.make Repaso-Parcial/CMakeFiles/2-1.dir/2/2-1.cpp.i
+.PHONY : 2/2-1.cpp.i
+
+2/2-1.s: 2/2-1.cpp.s
+
+.PHONY : 2/2-1.s
+
+# target to generate assembly for a file
+2/2-1.cpp.s:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-1.dir/build.make Repaso-Parcial/CMakeFiles/2-1.dir/2/2-1.cpp.s
+.PHONY : 2/2-1.cpp.s
+
+2/2-3.o: 2/2-3.cpp.o
+
+.PHONY : 2/2-3.o
+
+# target to build an object file
+2/2-3.cpp.o:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-3.dir/build.make Repaso-Parcial/CMakeFiles/2-3.dir/2/2-3.cpp.o
+.PHONY : 2/2-3.cpp.o
+
+2/2-3.i: 2/2-3.cpp.i
+
+.PHONY : 2/2-3.i
+
+# target to preprocess a source file
+2/2-3.cpp.i:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-3.dir/build.make Repaso-Parcial/CMakeFiles/2-3.dir/2/2-3.cpp.i
+.PHONY : 2/2-3.cpp.i
+
+2/2-3.s: 2/2-3.cpp.s
+
+.PHONY : 2/2-3.s
+
+# target to generate assembly for a file
+2/2-3.cpp.s:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2-3.dir/build.make Repaso-Parcial/CMakeFiles/2-3.dir/2/2-3.cpp.s
+.PHONY : 2/2-3.cpp.s
 
 Ej-01/Ejercicio-1.o: Ej-01/Ejercicio-1.cpp.o
 
@@ -320,6 +449,87 @@ Ej-05/Ejercicio-5.cpp.s:
 	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/Repaso-5.dir/build.make Repaso-Parcial/CMakeFiles/Repaso-5.dir/Ej-05/Ejercicio-5.cpp.s
 .PHONY : Ej-05/Ejercicio-5.cpp.s
 
+Parcial-2016/2016-1.o: Parcial-2016/2016-1.cpp.o
+
+.PHONY : Parcial-2016/2016-1.o
+
+# target to build an object file
+Parcial-2016/2016-1.cpp.o:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-1.dir/build.make Repaso-Parcial/CMakeFiles/2016-1.dir/Parcial-2016/2016-1.cpp.o
+.PHONY : Parcial-2016/2016-1.cpp.o
+
+Parcial-2016/2016-1.i: Parcial-2016/2016-1.cpp.i
+
+.PHONY : Parcial-2016/2016-1.i
+
+# target to preprocess a source file
+Parcial-2016/2016-1.cpp.i:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-1.dir/build.make Repaso-Parcial/CMakeFiles/2016-1.dir/Parcial-2016/2016-1.cpp.i
+.PHONY : Parcial-2016/2016-1.cpp.i
+
+Parcial-2016/2016-1.s: Parcial-2016/2016-1.cpp.s
+
+.PHONY : Parcial-2016/2016-1.s
+
+# target to generate assembly for a file
+Parcial-2016/2016-1.cpp.s:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-1.dir/build.make Repaso-Parcial/CMakeFiles/2016-1.dir/Parcial-2016/2016-1.cpp.s
+.PHONY : Parcial-2016/2016-1.cpp.s
+
+Parcial-2016/2016-2.o: Parcial-2016/2016-2.cpp.o
+
+.PHONY : Parcial-2016/2016-2.o
+
+# target to build an object file
+Parcial-2016/2016-2.cpp.o:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-2.dir/build.make Repaso-Parcial/CMakeFiles/2016-2.dir/Parcial-2016/2016-2.cpp.o
+.PHONY : Parcial-2016/2016-2.cpp.o
+
+Parcial-2016/2016-2.i: Parcial-2016/2016-2.cpp.i
+
+.PHONY : Parcial-2016/2016-2.i
+
+# target to preprocess a source file
+Parcial-2016/2016-2.cpp.i:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-2.dir/build.make Repaso-Parcial/CMakeFiles/2016-2.dir/Parcial-2016/2016-2.cpp.i
+.PHONY : Parcial-2016/2016-2.cpp.i
+
+Parcial-2016/2016-2.s: Parcial-2016/2016-2.cpp.s
+
+.PHONY : Parcial-2016/2016-2.s
+
+# target to generate assembly for a file
+Parcial-2016/2016-2.cpp.s:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-2.dir/build.make Repaso-Parcial/CMakeFiles/2016-2.dir/Parcial-2016/2016-2.cpp.s
+.PHONY : Parcial-2016/2016-2.cpp.s
+
+Parcial-2016/2016-3.o: Parcial-2016/2016-3.cpp.o
+
+.PHONY : Parcial-2016/2016-3.o
+
+# target to build an object file
+Parcial-2016/2016-3.cpp.o:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-3.dir/build.make Repaso-Parcial/CMakeFiles/2016-3.dir/Parcial-2016/2016-3.cpp.o
+.PHONY : Parcial-2016/2016-3.cpp.o
+
+Parcial-2016/2016-3.i: Parcial-2016/2016-3.cpp.i
+
+.PHONY : Parcial-2016/2016-3.i
+
+# target to preprocess a source file
+Parcial-2016/2016-3.cpp.i:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-3.dir/build.make Repaso-Parcial/CMakeFiles/2016-3.dir/Parcial-2016/2016-3.cpp.i
+.PHONY : Parcial-2016/2016-3.cpp.i
+
+Parcial-2016/2016-3.s: Parcial-2016/2016-3.cpp.s
+
+.PHONY : Parcial-2016/2016-3.s
+
+# target to generate assembly for a file
+Parcial-2016/2016-3.cpp.s:
+	cd /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug && $(MAKE) -f Repaso-Parcial/CMakeFiles/2016-3.dir/build.make Repaso-Parcial/CMakeFiles/2016-3.dir/Parcial-2016/2016-3.cpp.s
+.PHONY : Parcial-2016/2016-3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -328,11 +538,22 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 2-1"
+	@echo "... 2016-3"
 	@echo "... Repaso-1"
+	@echo "... 2016-2"
 	@echo "... Repaso-3"
+	@echo "... 2-3"
 	@echo "... Repaso-4"
 	@echo "... Repaso-2"
 	@echo "... Repaso-5"
+	@echo "... 2016-1"
+	@echo "... 2/2-1.o"
+	@echo "... 2/2-1.i"
+	@echo "... 2/2-1.s"
+	@echo "... 2/2-3.o"
+	@echo "... 2/2-3.i"
+	@echo "... 2/2-3.s"
 	@echo "... Ej-01/Ejercicio-1.o"
 	@echo "... Ej-01/Ejercicio-1.i"
 	@echo "... Ej-01/Ejercicio-1.s"
@@ -348,6 +569,15 @@ help:
 	@echo "... Ej-05/Ejercicio-5.o"
 	@echo "... Ej-05/Ejercicio-5.i"
 	@echo "... Ej-05/Ejercicio-5.s"
+	@echo "... Parcial-2016/2016-1.o"
+	@echo "... Parcial-2016/2016-1.i"
+	@echo "... Parcial-2016/2016-1.s"
+	@echo "... Parcial-2016/2016-2.o"
+	@echo "... Parcial-2016/2016-2.i"
+	@echo "... Parcial-2016/2016-2.s"
+	@echo "... Parcial-2016/2016-3.o"
+	@echo "... Parcial-2016/2016-3.i"
+	@echo "... Parcial-2016/2016-3.s"
 .PHONY : help
 
 

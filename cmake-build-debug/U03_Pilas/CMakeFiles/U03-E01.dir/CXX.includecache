@@ -9,6 +9,12 @@
 /home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Ej-01/main.cpp
 iostream
 -
+string
+-
+../Pila/Pila.h
+/home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Pila/Pila.h
+iostream
+-
 ../Pila/Pila.h
 /home/facu/Documents/ejercicios-2018-facuribetti/U03_Pilas/Pila/Pila.h
 
