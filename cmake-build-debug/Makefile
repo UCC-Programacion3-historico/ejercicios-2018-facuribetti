@@ -280,6 +280,58 @@ Repaso-5/fast:
 .PHONY : 2016-1/fast
 
 #=============================================================================
+# Target rules for targets named EJ-4
+
+# Build rule for target.
+EJ-4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EJ-4
+.PHONY : EJ-4
+
+# fast build rule for target.
+EJ-4/fast:
+	$(MAKE) -f Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-4.dir/build.make Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-4.dir/build
+.PHONY : EJ-4/fast
+
+#=============================================================================
+# Target rules for targets named EJ-3
+
+# Build rule for target.
+EJ-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EJ-3
+.PHONY : EJ-3
+
+# fast build rule for target.
+EJ-3/fast:
+	$(MAKE) -f Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-3.dir/build.make Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-3.dir/build
+.PHONY : EJ-3/fast
+
+#=============================================================================
+# Target rules for targets named EJ-1
+
+# Build rule for target.
+EJ-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EJ-1
+.PHONY : EJ-1
+
+# fast build rule for target.
+EJ-1/fast:
+	$(MAKE) -f Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-1.dir/build.make Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-1.dir/build
+.PHONY : EJ-1/fast
+
+#=============================================================================
+# Target rules for targets named EJ-2
+
+# Build rule for target.
+EJ-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EJ-2
+.PHONY : EJ-2
+
+# fast build rule for target.
+EJ-2/fast:
+	$(MAKE) -f Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-2.dir/build.make Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-2.dir/build
+.PHONY : EJ-2/fast
+
+#=============================================================================
 # Target rules for targets named U00-E04
 
 # Build rule for target.
@@ -924,6 +976,10 @@ help:
 	@echo "... Repaso-2"
 	@echo "... Repaso-5"
 	@echo "... 2016-1"
+	@echo "... EJ-4"
+	@echo "... EJ-3"
+	@echo "... EJ-1"
+	@echo "... EJ-2"
 	@echo "... U00-E04"
 	@echo "... U00-E02"
 	@echo "... U00-E01"

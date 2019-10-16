@@ -5,7 +5,7 @@
 		<Option title="gtest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\gtest-1.8.1\;CMake Files\test\lib\gtest-1.8.1\cmake\;CMake Files\Repaso-Parcial\;CMake Files\U00_Repaso\;CMake Files\U01_Recursividad\;CMake Files\U02_Listas\;CMake Files\U03_Pilas\;CMake Files\U04_Colas\;CMake Files\U05_Arbol\;CMake Files\U06_Hash\;CMake Files\U07_Grafos\;CMake Files\U08_Ordenamiento\;CMake Files\U09_Busqueda\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\gtest-1.8.1\;CMake Files\test\lib\gtest-1.8.1\cmake\;CMake Files\Repaso-Parcial\;CMake Files\Repaso-Parcial\Parcial-2019\;CMake Files\U00_Repaso\;CMake Files\U01_Recursividad\;CMake Files\U02_Listas\;CMake Files\U03_Pilas\;CMake Files\U04_Colas\;CMake Files\U05_Arbol\;CMake Files\U06_Hash\;CMake Files\U07_Grafos\;CMake Files\U08_Ordenamiento\;CMake Files\U09_Busqueda\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/test/lib/gtest-1.8.1"/>
@@ -138,6 +138,9 @@
 		</Unit>
 		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Repaso-Parcial\"/>
+		</Unit>
+		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/Repaso-Parcial/Parcial-2019/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Repaso-Parcial\Parcial-2019\"/>
 		</Unit>
 		<Unit filename="/home/facu/Documents/ejercicios-2018-facuribetti/U00_Repaso/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\U00_Repaso\"/>

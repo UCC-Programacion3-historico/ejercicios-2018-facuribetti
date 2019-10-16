@@ -19,6 +19,12 @@
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-2.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/Repaso-5.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/CMakeFiles/2016-1.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-4.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Parcial-2019/CMakeFiles/edit_cache.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-3.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Parcial-2019/CMakeFiles/rebuild_cache.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-1.dir
+/home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/Repaso-Parcial/Parcial-2019/CMakeFiles/EJ-2.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/CMakeFiles/rebuild_cache.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/CMakeFiles/edit_cache.dir
 /home/facu/Documents/ejercicios-2018-facuribetti/cmake-build-debug/U00_Repaso/CMakeFiles/U00-E04.dir

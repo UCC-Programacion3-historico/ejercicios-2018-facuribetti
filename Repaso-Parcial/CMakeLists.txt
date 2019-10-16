@@ -17,3 +17,5 @@ add_executable(2016-3 Parcial-2016/2016-3.cpp)
 add_executable(2-1 2/2-1.cpp)
 
 add_executable(2-3 2/2-3.cpp)
+
+add_subdirectory(Parcial-2019)

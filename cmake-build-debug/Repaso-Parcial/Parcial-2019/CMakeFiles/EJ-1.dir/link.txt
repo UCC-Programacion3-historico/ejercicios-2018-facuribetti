@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/EJ-1.dir/EJ-1/main.cpp.o  -o EJ-1 

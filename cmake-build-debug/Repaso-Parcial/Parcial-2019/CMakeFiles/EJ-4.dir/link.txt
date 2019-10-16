@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/EJ-4.dir/EJ-4/main.cpp.o  -o EJ-4 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/EJ-3.dir/EJ-3/main.cpp.o  -o EJ-3 
